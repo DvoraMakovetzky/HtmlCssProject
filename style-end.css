@@ -1,0 +1,67 @@
+body{margin: 0%;}
+.ditails {
+    text-align: center;
+    font-family: system-ui;
+    color: #216896;
+    margin-top: 3%;
+    font-size: 30px;
+    line-height: 1.5;
+    padding-bottom: 1.5%;
+}
+
+#bold {
+    font-weight: 650;
+}
+
+#address {
+    font-size: 20px;
+    font-weight: 649.5;
+}
+
+.bottom {
+    background-color: rgba(25, 24, 24, .788235294117647);
+    color: white;
+    text-align: center;
+    font-family: system-ui;
+    padding-bottom: 2%;
+    padding-top: 1.5%;
+}
+
+#h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+#h4 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+#h6 {
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.nav {
+    font-family: system-ui;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    Justify-content: space-between;
+    width: 40%;
+    direction: rtl;
+    padding-left: 30%;
+}
+
+.line {
+    text-decoration: none;
+    font-size: larger;
+    font-family: system-ui;
+    color: white;
+    font-weight: 500;
+}

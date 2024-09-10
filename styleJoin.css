@@ -1,0 +1,109 @@
+#title{
+    background-color: rgba(25,24,24,.788235294117647);
+    padding: 14px 71px 4px;
+    color: white;
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    font-weight: 650;
+    width: 85%;
+}
+.form{
+ width: 50%;
+ padding: 2% 2% 2% 2%;
+ background-color: white;
+ text-align: right;
+ margin-left: 24%;
+    margin-top: 11%;
+}
+body{
+    background-color: rgba(25,24,24,.788235294117647);
+}
+.flex-form-1{
+    display: flex;
+    flex-direction: row-reverse; 
+    flex-wrap: wrap;
+    justify-content: center;
+     /* text-align: right;
+     align-items: center;
+     line-height: 1.5;
+     justify-content: center;
+     width: 40%; */  
+}
+.f{
+    width: 40%;
+    padding-top: 3%;
+    /* text-align: right; */
+    /* display: flex;
+    flex-direction: row; */
+}
+#flex-form-2 input{
+    width: 600px;
+}
+#flex-form-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    
+    text-align: center;
+}
+/* #big-input{
+    width: 500px;
+} */
+label {
+     color:  rgba(25,24,24,.788235294117647);
+     margin-right: 18.5%;
+     font-size: 1.25rem;
+     font-family: system-ui;
+     font-weight: 500;
+}
+input{
+    border-radius: inherit;
+     border-left: none;
+     border-right: none;
+     border-top: none;
+     width: 250px;
+     font-size: 1.25rem;
+     border-color:#ced4da ;
+     color: rgba(25,24,24,.788235294117647);
+}
+button{
+    border-radius: 50px;
+    background-color: #cd2033;
+    color: #fff;
+    border: 0;
+    padding: 0 30px;
+    height: 35px;
+    margin-top: 4%;
+    font-size: 22px;
+    width: 200px;
+    font-weight: 550;
+    cursor: pointer;
+}
+i{
+    color: #cd2033;
+    font-size:xx-large;
+    margin-top: 3%;
+}
+#send{
+    text-decoration: none;
+}
+/* #text-input{
+    width: 600px;
+} */
+/* form button{
+    width: 300px;
+} */
+/* .flex input{
+    display: flex;
+     flex-direction: column-reverse;
+     flex-wrap: wrap;
+     justify-content: center;
+     line-height: 1.5;
+} */

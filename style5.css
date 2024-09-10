@@ -1,0 +1,234 @@
+#image-top {
+    background-image: url(הורדה\ \(18\).jpg);
+    background-size: cover;
+    height: 249px;
+    margin-top: 4.3%;
+}
+
+#h1-image-top {
+    text-align: center;
+    font-size: 78px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 700;
+    align-items: center;
+    padding: 3.5%;
+}
+
+#succses {
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 650;
+    font-size: 2rem;
+    color: rgba(25, 24, 24, .788235294117647);
+    padding: 3.5%;
+    padding-bottom: 1.5%;
+    padding-top: 4%;
+}
+
+#image-text {
+    padding-left: 27.5%;
+    margin-bottom: 5%;
+}
+.history{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: left;
+    color: #fff;
+    background-color: #216896;
+    font-family: system-ui;
+    text-align: right;
+    padding-top: 3.5%;
+    padding-bottom:2.5%;
+}
+#history-bold{
+    font-weight: 650;
+    font-size: xx-large;
+}
+.history img{
+    height: 580px;
+    width: 430px;
+    margin-right: 0%;
+    animation: p1 1.5s linear 3s 1  both;
+}
+@keyframes p1{
+    from{
+        margin-left: 10%;
+        opacity: 0;
+        height: 0%;
+        width: 0%;
+    }
+    to{
+        margin-left: 0%;
+        opacity: 1;
+        height: 580px;
+        width: 430px;
+    }
+}
+#history-text{
+    margin-top: 2.5%;
+    font-size: 22px;
+    line-height: 37.9px;
+}
+.history-left{
+    margin-right: 2%;
+    padding-left: 14%;
+}
+#link1{ 
+    font-weight: 650;
+    font-size: 22px;
+    text-align: center;
+}
+#link1:hover{
+    text-decoration:underline white;
+    cursor: pointer;
+}
+#special-bold{
+    font-weight: 650;
+    font-size: xx-large;
+}
+.special{
+   text-align: right;
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: system-ui;
+    font-size: 22px;
+    line-height: 37.9px;
+    flex-direction: column;
+    color: rgba(25,24,24,.788235294117647);
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;   
+}
+.special-text{
+  
+}
+#link2{
+    font-weight: 650;
+    font-size: 22px;
+    text-align: right;
+    color: #216896;
+}
+#link2:hover{
+    text-decoration:underline #216896;
+    cursor: pointer;
+}
+.individual{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    font-family: system-ui;
+    color: rgba(25,24,24,.788235294117647);
+    direction: rtl;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#individual-bold{
+    font-weight: 650;
+    font-size: xx-large;
+}
+/* .history img{
+    height: 580px;
+    width: 430px;
+    margin-right: 0%;
+} */
+#individual-text{
+    margin-top: 2.5%;
+    font-size: 22px;
+    line-height: 37.9px;
+}
+#individual-left{
+    padding-right: 2%;
+}
+#individual-img{
+    height:  275px;
+    margin-top: 2.5%;
+    max-width: 100%;
+    animation: p2 1.5s linear 7s 1  both; 
+}
+@keyframes p2{
+    from{
+        margin-left: 10%;
+        opacity: 0;
+        height: 0%;
+        width: 0%;
+    }
+    to{
+        margin-left: 0%;
+        opacity: 1;
+        height: 275px;
+        max-width: 100%;
+    }
+}
+#for-you{
+    margin-top: 5%;
+}
+.for-you-text{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+    white-space: pre-wrap;
+    border: 3px solid #cd2033;
+    border-left: none;
+    font-family: system-ui;
+    color: rgba(25,24,24,.788235294117647);
+    direction: rtl;
+    font-size: 22px;
+    line-height: 20px;
+    z-index: 1;
+}
+#for-you-h1{
+    font-weight: 650;
+    font-size: xx-large;
+    line-height: 1.5;
+}
+.for-you-bold{
+    font-weight: 650;
+}
+#location{
+    margin-right: 15.5%;
+}
+#for-you-img{
+    z-index: 2;
+    margin-top: -11%;
+    margin-left: 17%;
+    animation: p3 1s linear 10s 1  both;
+}
+@keyframes p3{
+    from{
+        margin-right: 10%;
+        opacity: 0;
+        height: 0%;
+        width: 0%;
+    }
+    to{
+        margin-right: 0%;
+        opacity: 1;
+        height:294px;
+        width:441px ;
+    }
+}
+#end-button{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+#chose-button{
+    border-radius: 50px;
+    color: white;
+    background-color:  #cd2033;
+    font-family: system-ui;
+    font-weight: 650;
+    width: 590px;
+    font-size: 17px;
+    border: 0;
+    font-size: 28px;
+    margin-top: 1%;
+    height: auto;
+}

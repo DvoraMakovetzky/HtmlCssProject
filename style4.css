@@ -1,0 +1,80 @@
+#image-top {
+    background-image: url(הורדה\ \(17\).jpg);
+    background-size: cover;
+    height: 213px;
+    margin-top: 4.3%;
+}
+
+#h1-image-top {
+    text-align: center;
+    font-size: 78px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 700;
+    align-items: center;
+    padding: 3%;
+}
+.list{
+    font-family: system-ui;
+}
+.part-list-1{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(25,24,24,.788235294117647);
+    padding: 1% 0% 1% 0;
+}
+.right-1{
+    display: flex;
+    flex-direction: column;
+    color: #cd2033;
+    font-size: 26px;
+    font-weight: 650;
+    align-items: center;
+    margin-left: -31%;
+    width: 15%;
+}
+.right-1 img{
+    height: 70px;
+    width: 70px;
+}
+.li{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.left-1 img{
+    height: 100px;
+    width: 100px;
+}
+.left-1{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: 600;
+    align-items: center;
+    margin-left: -5%;
+    width: 15%;
+}
+.middle-1{
+    width: 21%;
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 1.6;
+    margin-left: -17%;
+    white-space: nowrap;
+}
+.li div{
+    padding-right: 3%;
+}
+.li i{
+    font-size: 30px;
+    color: #216896;
+}
+.list .part-list-1:nth-child(even){
+    background-color: #eaf0f4;
+}
+
